@@ -3,6 +3,22 @@
 ## Description
 Instagram Unfollower Tracker is a Python web scraper application utilizing the Selenium library. It allows users to log into their Instagram profiles, retrieve their followers and following lists, and identify those who do not reciprocate. Additionally, users can unfollow non-reciprocating accounts or follow accounts that the user is not currently following back.
 
+## Benefits of the Project
+By using Instagram Unfollower Tracker, you can enjoy the following benefits:
+
+- Quickly and easily list your followers and accounts you are following.
+- Identify accounts that do not reciprocate by not following you back or vice versa.
+- Based on this information, you can perform follow or unfollow operations.
+- Effectively manage your account.
+
+## Requirements
+To run this project, you'll need the following dependencies:
+
+- [Selenium](https://pypi.org/project/selenium/): A web testing framework.
+- [Getpass](https://docs.python.org/3/library/getpass.html): A library for securely entering passwords.
+
+Make sure to have these dependencies installed before running the project.
+
 ## Usage
 - Ensure you have the required dependencies installed (`selenium`, `getpass`).
 - Run `instagramBot.py`.
@@ -29,27 +45,17 @@ Instagram Unfollower Tracker is a Python web scraper application utilizing the S
   5. Follow the on-screen instructions to complete the selected action.
  
 
-## Usage Example
-```python
-instagram = Instagram()
-instagram.login()
-instagram.findFollowers()
-instagram.findFollowings()
+## Usage Scenarios
 
-# Use the menu to perform actions on your Instagram account
-while True:
-    n = instagram.menu()
-    match n:
-        case "1":
-            instagram.findFollowers()
-        case "2":
-            instagram.findFollowings()
-        case "3":
-            instagram.userNotFollowingBackMain()
-        case "4":
-            instagram.notFollowingUserBackMain()
-        case "n":
-            break
-        case _:
-            print("Invalid input. Please try again.")
-            time.sleep(1.5)
+### Scenario 2: Finding Accounts You're Not Following Back
+1. Press `3` on the main menu to find accounts you're not following back.
+2. The list of these accounts will be displayed on the screen.
+3. Enter the numbers of the accounts you want to follow back, separated by commas (e.g., `1,3,4`).
+
+### Scenario 3: Following or Unfollowing
+1. Press `4` on the main menu to find accounts that you're not following back.
+2. The list of these accounts will be displayed on the screen.
+3. Enter the numbers of the accounts you want to follow or unfollow, separated by commas (e.g., `1,3,4`).
+
+### Scenario 4: Exiting the Program
+1. Press `n` on the main menu to close the program.

@@ -12,19 +12,19 @@ Instagram Unfollower Tracker is a Python web scraper application utilizing the S
   2. **Main Menu**: Choose an option from the main menu by entering the corresponding number:
       - `1` - Find Followers: Retrieves your followers.
       - `2` - Find Followings: Retrieves accounts you are following.
-      - `3` - Users Not Following You Back: Identifies accounts that are not following you back.
-      - `4` - Users You're Not Following Back: Identifies accounts that you are not following back.
+      - `3` - Users You're Not Following Back: Identifies accounts that you are not following back.
+      - `4` - Users Not Following You Back: Identifies accounts that are not following you back.
       - `n` - Exit: To exit the program.
 
-  3. **Following Steps for Option 3 (Users Not Following You Back)**:
-      - The program will identify users who are not following you back.
+  3. **Following Steps for Option 3 (Users You're Not Following Back)**:
+      - The program will identify users you are not following back.
       - You will be presented with a list of these users.
       - Choose the users you want to follow back by entering their numbers (e.g., `1,3,4`) separated by commas.
 
-  4. **Following Steps for Option 4 (Users You're Not Following Back)**:
-      - The program will identify users you are not following back.
+  4. **Following Steps for Option 4 (Users Not Following You Back)**:
+      - The program will identify users who are not following you back.
       - You will be presented with a list of these users.
-      - Choose the users you want to start following by entering their numbers (e.g., `1,3,4`) separated by commas.
+      - Choose the users you want to unfollow by entering their numbers (e.g., `1,3,4`) separated by commas.
 
   5. Follow the on-screen instructions to complete the selected action.
  

@@ -44,18 +44,3 @@ Make sure to have these dependencies installed before running the project.
 
   5. Follow the on-screen instructions to complete the selected action.
  
-
-## Usage Scenarios
-
-### Scenario 2: Finding Accounts You're Not Following Back
-1. Press `3` on the main menu to find accounts you're not following back.
-2. The list of these accounts will be displayed on the screen.
-3. Enter the numbers of the accounts you want to follow back, separated by commas (e.g., `1,3,4`).
-
-### Scenario 3: Following or Unfollowing
-1. Press `4` on the main menu to find accounts that you're not following back.
-2. The list of these accounts will be displayed on the screen.
-3. Enter the numbers of the accounts you want to follow or unfollow, separated by commas (e.g., `1,3,4`).
-
-### Scenario 4: Exiting the Program
-1. Press `n` on the main menu to close the program.

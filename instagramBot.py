@@ -302,7 +302,7 @@ chrome_options.add_argument("log-level=3")
 
 # -- Driver Neccessary --
 webdriver_service = service.Service(
-    'C:/Users/ethem/Masaüstü/ethemi/etoadamolacaktacalisacakamk/piton/operadriver.exe')
+    '')
 webdriver_service.start()
 driver = webdriver.Remote(webdriver_service.service_url,
                           webdriver.DesiredCapabilities.OPERA, options=chrome_options)
